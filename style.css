@@ -5,12 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
-    margin-bottom: 150pxS;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -18,6 +21,15 @@ section{
 }
 .half-width img{
     width: 100%;
+}
+.career-option{
+    width: 40%;
+    padding: 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
 }
 .link-button{
     text-decoration: none;
@@ -35,4 +47,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#manch-unit{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#real-mad{
+    border-left: 7px solid ;
+    border-image: linear-gradient(salmon, purple);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+}
+#club-car{
+    margin-left: 10px;
 }
